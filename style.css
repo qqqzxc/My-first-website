@@ -1,0 +1,87 @@
+body {
+  	width: auto;
+     font-size: 15px;
+     padding: 0px;
+     margin: 0px;
+     line-height: 120%;
+     font-family: "Georgia", serif;
+     background: #ffffff url("workspace_solid%20III.svg") repeat fixed center;
+     background-size: cover;
+	
+}
+
+header, footer {
+	   padding: 20px 0;
+  	 height: 100px;
+  	 background-color: #FE7624;
+}
+
+header h1 {
+     vertical-align: bottom;
+	   text-align: center;
+}
+
+main {
+      margin: 50px;
+      background-color: #fff;
+      border: 2px solid #5D21D1;
+} 
+
+section {
+      margin: 25px;
+}
+
+h2 {
+  text-align: left;
+  border-bottom: 2px solid #5D21D1;
+}
+
+article {
+  padding: 10px;
+  background-color: rgba(254,186,145, 0.5); 
+  border-radius: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+  margin: auto;
+  border: 1px solid #5D21D1;
+}
+
+td, th {
+  padding: 5px;
+  border: 1px solid #5D21D1;
+  text-align: center
+}
+
+.color {
+  background-color: rgba(254,186,145, 0.5);
+}
+
+.float {
+  float: right;
+  border: 1px solid black;
+}
+
+.sign {
+    float: right; /* Выравнивание по правому краю */
+    border: 0px solid #333; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    margin: 10px 0 5px 5px; /* Отступы вокруг */
+    background: #ffffff; /* Цвет фона */ 
+    text-align: center;
+   }
+
+   .sign figcaption {
+    margin: 0 auto 5px; /* Отступы вокруг абзаца */
+   }
+
+   footer {
+    text-align: left;
+   }
+
+   .vk {
+    float: right;
+    margin: 15px;
+   }
